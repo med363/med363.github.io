@@ -1481,3 +1481,61 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
+
+.section {
+  padding: 50px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.card img {
+  width: 100%;
+  height: 180px;           /* fixed height */
+  object-fit: cover;       /* crop/scale nicely */
+  border-bottom: 1px solid #ddd; /* optional border for separation */
+}
+
+
+.card h3 {
+  padding: 10px;
+  font-size: 1.1rem;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.cv-button {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #0078ff;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.cv-button:hover {
+  background: #005fcc;
+}
